@@ -8,7 +8,7 @@ from opencage.geocoder import OpenCageGeocode
  
 # taking input the phonenumber along with the country code
 #Example: +91 8897909596
-number = input("+254713655784 : ")
+number = input("Enter phone number : ")
 
 # Parsing the phonenumber string to convert it into phonenumber format
 phoneNumber = phonenumbers.parse(number)
